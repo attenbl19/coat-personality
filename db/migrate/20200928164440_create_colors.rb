@@ -4,6 +4,7 @@ class CreateColors < ActiveRecord::Migration[6.0]
       t.string :img_src
       t.string :name
       t.integer :cat_id
+       
 
       t.timestamps
     end
