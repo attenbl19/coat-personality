@@ -24,14 +24,14 @@ class ColorsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /colors/1
-  def update
-    if @color.update(color_params)
-      render json: @color
-    else
-      render json: @color.errors, status: :unprocessable_entity
-    end
-  end
+  # # PATCH/PUT /colors/1
+  # def update
+  #   if @color.update(color_params)
+  #     render json: @color
+  #   else
+  #     render json: @color.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # DELETE /colors/1
   def destroy
@@ -44,7 +44,7 @@ class ColorsController < ApplicationController
       @color = Color.find(params[:id])
     end
 
-    # Only allow a trusted parameter "white list" through.
+    # # Only allow a trusted parameter "white list" through.
     def color_params
       params.require(:color).permit(:img_src, :name, :cat_id)
     end
