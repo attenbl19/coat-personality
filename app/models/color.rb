@@ -1,5 +1,5 @@
 class Color < ApplicationRecord
     belongs_to :cat
-    has_many :personality_types
+    has_many :personalities
     validates :name, presence: true
 end
