@@ -1,5 +1,5 @@
 class CatsController < ApplicationController
-  before_action :set_cat, only: [ :show, :update, :destroy]
+  before_action :set_cat, only: [:show, :update, :destroy]
 
   # GET /cats
   def index
