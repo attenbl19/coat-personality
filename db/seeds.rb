@@ -79,7 +79,7 @@ colors_array =
     {
         img_src: "https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80",
         name: "Seal Pointed",
-        cat_id: Cat.all.sample.id 
+        cat_id: Cat.all.sample.id
     },
     {
         img_src: "https://images.pexels.com/photos/4463857/pexels-photo-4463857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -105,61 +105,61 @@ personalities_array =
         gif_src: "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif",
         personality_type: "Shy and resevered",
         description: "Can be a bit anti-social as they will observe you and then decide if you are worthy.  Once chosen they can develop deep bonds.  These introverts sensitive and shy and prefer and calm life style",
-        color_id: Color.all.sample.id
+        color_id: 1
     },
     {
         gif_src: "https://media.giphy.com/media/SRO0ZwmImic0/giphy.gif",
         personality_type: "Savvy and playful",
         description: "Sophistication combined with wildness, these felines like to have fun and can be mischievious at times.",
-        color_id: Color.all.sample.id
+        color_id: 2
     },
     {
         gif_src: "https://media.giphy.com/media/B6odR0DhsStfW/giphy.gif",
         personality_type: "Homebody and comforting",
         description: "These attractive kitties are gentle, loving and affectionate.  They tend to be even tempered and enjoy laying in bed all day.",
-        color_id: Color.all.sample.id
+        color_id: 3
     },
     {
         gif_src: "https://media.giphy.com/media/l1J3rSpz8dUlp6tq0/giphy.gif",
         personality_type: "Shrewd and affectionate",
         description: "These rare beauties are very intelligent, friendly and playful.  They are sofisticated and love attention.",
-        color_id: Color.all.sample.id
+        color_id: 4
     },
     {
         gif_src: "https://media.giphy.com/media/8vQSQ3cNXuDGo/giphy.gif",
         personality_type: "Quirky and easy going",
         description: "The clowns of the cat world, these adorable felines are the goofiest and funniest.  They are vocal about how they feel and love attention and adoration. These cats are easy going.",
-        color_id: Color.all.sample.id
+        color_id: 5
     },
     {
         gif_src: "https://media.giphy.com/media/11JTxkrmq4bGE0/giphy.gif",
         personality_type: "Resourceful and friendly",
         description: "These attractive felines are very resouceful and clever. They have a friendly and playful demeanor that makes them a great member of the family",
-        color_id: Color.all.sample.id
+        color_id: 6
     },
     {
         gif_src: "https://media.giphy.com/media/l41m1o3Wt8OZfFL7a/giphy.gif",
         personality_type: "Cunning and playful",
         description: "These cute kittes hava tendency to get into trouble as they can be naughty and mischievious. Their irresitable enery and charisma coupled with their cutness and loving affection gets them out of trouble.",
-        color_id: Color.all.sample.id
+        color_id: 7
     },
     {
         gif_src: "https://media.giphy.com/media/e6PEulsTAeoOk/giphy.gif",
         personality_type: "Carefree and loving",
         description: "These clever and affectionate fur babies and fun loving and peaceful. They can be high energy one minute and cuddly the next.",
-        color_id: Color.all.sample.id
+        color_id: 8
     },
     {
         gif_src: "https://media.giphy.com/media/SJk9xTbxcg0DFDs89d/giphy.gif",
         personality_type:"Honest and assertive",
         description: "These elegant cats are known to be assertive and vocal.  They tend to connect best with the one person in the house.  They love to fetch, hunt and need structed play time.",
-        color_id: Color.all.sample.id
+        color_id: 9
     },
     {
         gif_src: "https://media.giphy.com/media/SVYrs1hU0SiAf1nw1n/giphy.gif",
         personality_type:"Protective and affectionate",
         description: "Felines with more then two colors are attractive and unique.  They are loving and lively yet determined. They can be full of surprises.  They can also be very territorial and protective of their owners and home as well as very loving.",
-        color_id: Color.all.sample.id
+        color_id: 10
     } 
 
 ]

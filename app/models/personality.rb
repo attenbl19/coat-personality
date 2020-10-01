@@ -1,3 +1,3 @@
 class Personality < ApplicationRecord
-    belongs_to :colors
+    belongs_to :color
 end
